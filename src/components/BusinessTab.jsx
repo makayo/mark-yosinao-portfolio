@@ -93,12 +93,12 @@ const BusinessTab = () => (
         <div className="biz-contact-item">
           <span className="biz-contact-label">LinkedIn</span>
           <a
-            href="https://www.linkedin.com/in/mark-yosinao-4914a3200"
+            href="https://www.linkedin.com/in/makayo-founder"
             target="_blank"
             rel="noreferrer"
             className="biz-contact-link"
           >
-            Makayo Bridge Services
+            Mark Yosinao, Founder
           </a>
         </div>
       </div>
