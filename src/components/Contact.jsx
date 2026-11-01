@@ -21,7 +21,7 @@ const Contact = () => (
             label: "LinkedIn (Personal)",
             href: "https://www.linkedin.com/in/mark-yosinao-64191638b/",
           },
-          { label: "Email", href: "mailto:markyosinao@yahoo.com" },
+          { label: "Email", href: "mailto:mark@makayotech.com" },
         ].map(({ label, href }) => (
           <a
             key={label}
