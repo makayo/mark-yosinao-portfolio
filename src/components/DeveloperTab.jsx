@@ -63,102 +63,155 @@ const featuredSkills = [
 
 const projects = [
   {
-    tag: "AI / NLP",
-    tagClass: "tag-ai",
-    title: "Chamorro Language AI Initiative",
-    desc: "Community-driven project to build open Chamorro language datasets, scraping pipelines, and training resources for future translation and language models.",
-    stack: ["Python", "NLP", "Data Pipelines", "Open Source"],
-    href: "https://github.com/makayo/Chamorro-Language-AI-Initiative",
+    tag: "Mobile",
+    tagClass: "tag-react",
+    title: "HIVE",
+    status: "In development",
+    desc: "A map-first social app for personal electric vehicle riders (e-scooters, EUCs, e-boards, e-bikes). Riders find nearby people, meetups, and groups on a live map instead of a feed.",
+    stack: ["React Native", "Expo", "TypeScript", "Supabase", "Real-time"],
+    href: null,
+    live: null,
     featured: true,
     highlights: [
-      "Indigenous Pacific language preservation",
-      "Open dataset pipeline architecture",
-      "Scraping and preprocessing workflows",
-      "Foundation for future translation models",
-      "Community-driven and publicly available",
+      "Authentication with session persistence and password recovery",
+      "Live \"riding now\" map with real-time presence",
+      "Groups with real-time chat and shared photo galleries",
+      "Events with RSVP and map directions; ride history and stats",
+      "Next: points of interest, hazard reporting, payments",
     ],
   },
   {
-    tag: "React + Vite",
-    tagClass: "tag-react",
-    title: "CRUD Query App",
-    desc: "Full CRUD operations against the JSONPlaceholder API using TanStack Query. Implements GET, POST, PUT, PATCH, and DELETE with optimistic UI updates and dynamic filtering.",
-    stack: ["React", "Vite", "TanStack Query v5"],
-    href: "https://github.com/makayo/csc142-spring-2026",
-    featured: false,
-    highlights: [],
-  },
-  {
-    tag: "AI / ML",
-    tagClass: "tag-ai",
-    title: "LLM Fine-Tuning with LoRA",
-    desc: "Sentiment classification using LoRA to fine-tune T5-small on the IMDb dataset. Includes evaluation with accuracy, precision, recall, macro F1, and confusion matrix analysis.",
-    stack: ["Python", "Jupyter Notebook", "HuggingFace", "LoRA", "T5"],
-    href: "https://github.com/makayo/AI-ML-Assignment-7-LLM-FineTuning-LoRA",
-    featured: false,
-    highlights: [],
-  },
-  {
-    tag: "AI / ML",
-    tagClass: "tag-ai",
-    title: "Simple RAG Pipeline",
-    desc: "Retrieval-Augmented Generation demo using Python to embed, retrieve, and generate context-aware answers from a document corpus.",
-    stack: ["Python", "Jupyter Notebook", "RAG", "Embeddings"],
-    href: "https://github.com/makayo/AI-ML-Assignment-5-Simple-RAG",
-    featured: false,
-    highlights: [],
-  },
-  {
+    // TODO: confirm North Seattle College is OK with this being shown publicly.
     tag: "Node.js",
     tagClass: "tag-node",
-    title: "Express Node.js Server",
-    desc: "Basic Express server with simple routing, conditional routing, regex routes, dynamic parameters, query string handling, and a 404 handler.",
-    stack: ["Node.js", "Express", "JavaScript"],
-    href: "https://github.com/makayo/Build-a-Basic-Express-NodeJS-Serve",
-    featured: false,
-    highlights: [],
+    title: "NSC Classroom Translation Tool",
+    status: "Built & tested · Awaiting classroom pilot",
+    desc: "Live multilingual captions and headphone audio for ESL students at North Seattle College. The instructor speaks English; each student follows along in one of nine languages and downloads a translated study guide at the end of class.",
+    stack: ["Node.js", "Express", "WebSockets", "Google Cloud Translation", "Web Speech API"],
+    href: null,
+    live: null,
+    featured: true,
+    highlights: [
+      "Real-time pipeline: speech recognition → translation → live captions and audio",
+      "Privacy by design: no login, no audio recording, nothing stored after class",
+      "Glossary protection keeps technical terms from being mistranslated",
+      "Right-to-left support for Arabic and Farsi",
+      "Tested end to end with real speech, translation, and audio",
+    ],
   },
   {
-    tag: "UX / Figma",
+    // TODO: confirm North Seattle College is OK with this being shown publicly.
+    tag: "Web",
     tagClass: "tag-fullstack",
-    title: "Beacon Safety Companion",
-    desc: "Figma prototype for a safety companion mobile app designed to connect users to the nearest safety resources in real time.",
-    stack: ["Figma", "UX Design", "Prototyping"],
-    href: "https://github.com/makayo/Beacon-safety-companion-app-Figma-prototype",
+    title: "OCE Multilingual Greeter Kiosk",
+    status: "Built · Translations in native-speaker review",
+    desc: "A self-service lobby kiosk for North Seattle College's Opportunity Center that helps visitors find services, directions, and staff help in ten languages, running fully offline from a USB drive.",
+    stack: ["JavaScript", "HTML/CSS", "Web Speech API", "Accessibility", "Offline-first"],
+    href: null,
+    live: null,
+    featured: true,
+    highlights: [
+      "Works with no internet, server, or cloud services",
+      "Pre-approved translations instead of live machine translation, for accuracy",
+      "Text-to-speech with replay and speed control",
+      "Right-to-left Arabic and Farsi without breaking the control layout",
+      "Anonymous local usage stats with a staff dashboard and CSV export",
+    ],
+  },
+  {
+    tag: "Web",
+    tagClass: "tag-fullstack",
+    title: "Ghost Architecture Visualizer",
+    status: "Completed",
+    desc: "An interactive dashboard mapping the architecture of Ghost, the open-source publishing platform, with a documented audit of an AI-generated architecture breakdown checked against Ghost's source code.",
+    stack: ["JavaScript", "HTML/CSS", "Software Architecture", "Accessibility", "AI Evaluation"],
+    href: "https://github.com/makayo/ghost-arch-visualizer",
+    live: "https://makayo.github.io/ghost-arch-visualizer/",
+    featured: true,
+    highlights: [
+      "Clickable map of 24 components across five architecture layers",
+      "Step-by-step walkthroughs of five real request flows",
+      "AI audit: 7 claims verified, 6 corrected, 1 partly verified, each with evidence",
+      "Accessible and secure by default: skip link, focus styles, no innerHTML",
+    ],
+  },
+  {
+    // TODO: repo is private. Make it public (check for keys first) or add a live demo link.
+    tag: "AI / ML",
+    tagClass: "tag-ai",
+    title: "Guam AI Chatbot",
+    status: "Prototype",
+    desc: "A cultural preservation app for learning and translating the Chamoru language, with experimental English ↔ Chamoru translation powered by a local LLM, a learning mode with word of the day and badges, and community feedback for corrections.",
+    stack: ["React", "Node.js", "Express", "Ollama", "LLM"],
+    href: null,
+    live: null,
     featured: false,
     highlights: [],
   },
   {
-    tag: "React + Vite",
+    tag: "AI / ML",
+    tagClass: "tag-ai",
+    title: "Secure Internal Chatbot",
+    status: "Prototype · Team of 4",
+    desc: "A proof-of-concept chatbot that runs on in-house infrastructure so sensitive data never leaves the organization, designed around compliance needs such as FERPA and HIPAA. Locally hosted LLM with a Next.js frontend and FastAPI backend. My role: built the admin API endpoints (stats, users, settings) and the admin dashboard for LLM settings and API key management, and redesigned the landing, login, and register pages.",
+    stack: ["Next.js", "TypeScript", "Python", "FastAPI", "Hugging Face"],
+    href: "https://github.com/makayo/Secure-Internal-Chatbot-Design",
+    live: null,
+    featured: false,
+    highlights: [],
+  },
+  {
+    tag: "AI / ML",
+    tagClass: "tag-ai",
+    title: "NSC Vetting Loop Checker",
+    status: "Prototype",
+    desc: "An AI-assisted quality-review dashboard for a three-stage approval process. Submissions are checked against written design specs by an LLM, and failed items get an auto-generated, rule-specific revision note.",
+    stack: ["JavaScript", "HTML/CSS", "Anthropic API", "Prompt Engineering"],
+    href: "https://github.com/makayo/nsc-vetting-loop-checker",
+    live: null,
+    featured: false,
+    highlights: [],
+  },
+  {
+    tag: "React",
     tagClass: "tag-react",
-    title: "Dog Explorer App",
-    desc: "React app that fetches and displays dog breed data from the Dog API using TanStack Query with full loading, error, and success state handling.",
-    stack: ["React", "TanStack Query v5", "Dog API"],
-    href: "https://github.com/makayo/csc142-spring-2026",
+    title: "MarketCorp",
+    status: "In progress",
+    desc: "An e-commerce storefront foundation: product catalog and detail pages built in React with Tailwind CSS, backed by a Supabase PostgreSQL database, with a Postman collection for API testing.",
+    stack: ["React", "Vite", "Tailwind CSS", "Supabase", "PostgreSQL"],
+    href: "https://github.com/makayo/marketcorp",
+    live: null,
     featured: false,
     highlights: [],
   },
   {
-    tag: "Supabase + SQL",
+    tag: "Python",
+    tagClass: "tag-node",
+    title: "Nearest Safety Resource Finder",
+    status: "Completed",
+    desc: "A Flask web app that finds the closest emergency resource to the user by combining IP-based geolocation with OpenStreetMap emergency data, reporting distance and direction. Includes a test script for edge cases.",
+    stack: ["Python", "Flask", "REST APIs", "OpenStreetMap"],
+    href: "https://github.com/makayo/nearest-safety-phone-finder",
+    live: null,
+    featured: false,
+    highlights: [],
+  },
+  {
+    // TODO: repo is private. Make it public or host it on GitHub Pages, then add href/live.
+    tag: "Web",
     tagClass: "tag-fullstack",
-    title: "StreamFlix DB",
-    desc: "PostgreSQL database with Foreign Key constraints and ON DELETE RESTRICT to prevent orphaned ratings — demonstrating referential integrity in a data warehouse context.",
-    stack: ["Supabase", "PostgreSQL", "SQL"],
-    href: "https://github.com/makayo/csc142-spring-2026",
+    title: "MoonShooter Printing",
+    status: "Completed · Class project",
+    desc: "A multi-page marketing website for a print shop: product gallery, services, contact, and a design-upload form for customer project intake. Responsive layout with custom CSS, no framework.",
+    stack: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
+    href: null,
+    live: null,
     featured: false,
     highlights: [],
   },
 ];
 
-const categories = [
-  "All",
-  "React + Vite",
-  "AI / NLP",
-  "AI / ML",
-  "Node.js",
-  "Supabase + SQL",
-  "UX / Figma",
-];
+const categories = ["All", "AI / ML", "Node.js", "React", "Mobile", "Python", "Web"];
 
 const orgs = [
   {
@@ -314,6 +367,11 @@ const DeveloperTab = () => {
               <div className="project-card-inner">
                 <span className={`project-tag ${p.tagClass}`}>{p.tag}</span>
                 <div className="project-title">{p.title}</div>
+                {p.status && (
+                  <div style={{ fontSize: "0.75rem", opacity: 0.75, margin: "0.25rem 0 0.5rem" }}>
+                    {p.status}
+                  </div>
+                )}
                 <p className="project-desc">{p.desc}</p>
                 <div className="project-stack">
                   {p.stack.map((s) => (
@@ -322,14 +380,33 @@ const DeveloperTab = () => {
                     </span>
                   ))}
                 </div>
-                <a
-                  href={p.href}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="project-link"
-                >
-                  View Code
-                </a>
+                <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
+                  {p.live && (
+                    <a
+                      href={p.live}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="project-link"
+                    >
+                      View Live Site
+                    </a>
+                  )}
+                  {p.href && (
+                    <a
+                      href={p.href}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="project-link"
+                    >
+                      View Code
+                    </a>
+                  )}
+                  {!p.live && !p.href && (
+                    <span className="project-link" style={{ opacity: 0.6, cursor: "default" }}>
+                      Private repository · details on request
+                    </span>
+                  )}
+                </div>
               </div>
               {p.featured && p.highlights.length > 0 && (
                 <div className="highlights-box">
