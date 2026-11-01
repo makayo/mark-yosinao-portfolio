@@ -32,7 +32,7 @@ const BusinessTab = () => (
           Bridging the gap between technology and real-world impact.
           Independent software development and consulting based in Seattle, WA.
         </p>
-        <a href="mailto:markyosinao@yahoo.com" className="biz-cta">
+        <a href="mailto:hello@makayotech.com" className="biz-cta">
           Work With Me
         </a>
       </div>
@@ -82,7 +82,9 @@ const BusinessTab = () => (
       <div className="biz-contact-info">
         <div className="biz-contact-item">
           <span className="biz-contact-label">Email</span>
-          <span className="biz-contact-value">markyosinao@yahoo.com</span>
+          <a href="mailto:hello@makayotech.com" className="biz-contact-link">
+            hello@makayotech.com
+          </a>
         </div>
         <div className="biz-contact-item">
           <span className="biz-contact-label">Location</span>
