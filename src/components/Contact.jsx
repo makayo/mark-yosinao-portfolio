@@ -14,7 +14,7 @@ const Contact = () => (
         {[
           { label: "GitHub", href: "https://github.com/makayo" },
           {
-            label: "LinkedIn (Makayo Bridge)",
+            label: "LinkedIn (Makayo Tech)",
             href: "https://www.linkedin.com/in/mark-yosinao-4914a3200",
           },
           {
