@@ -13,13 +13,13 @@ const Contact = () => (
       <div style={s.links}>
         {[
           { label: "GitHub", href: "https://github.com/makayo" },
-          {
+                   {
             label: "LinkedIn (Makayo Tech)",
-            href: "https://www.linkedin.com/in/mark-yosinao-4914a3200",
+            href: "https://www.linkedin.com/in/makayo-tech/",
           },
           {
             label: "LinkedIn (Personal)",
-            href: "https://www.linkedin.com/in/mark-yosinao-64191638b/",
+            href: "https://www.linkedin.com/in/mark-yosinao/",
           },
           { label: "Email", href: "mailto:mark@makayotech.com" },
         ].map(({ label, href }) => (
