@@ -8,7 +8,6 @@ Personal portfolio for Mark Yosinao, full-stack developer and founder of Makayo 
 
 - **Developer tab:** about, organizations, certifications, skills, and a project gallery with category filters
 - **Business tab:** Makayo Tech LLC services, certifications, and contact info
-- **Resume:** downloadable PDF at [/resume.pdf](https://mark-yosinao-portfolio.vercel.app/resume.pdf)
 
 ## Tech stack
 
