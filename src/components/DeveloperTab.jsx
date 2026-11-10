@@ -220,9 +220,9 @@ const orgs = [
     href: "https://northseattle.edu",
   },
   {
-    name: "Makayo Bridge Services LLC",
+    name: "Makayo Tech LLC",
     role: "Founder & Developer",
-    href: "https://github.com/makayo",
+    href: "https://makayotech.com",
   },
 ];
 
