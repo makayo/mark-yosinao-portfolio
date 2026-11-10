@@ -25,12 +25,12 @@ const services = [
 const BusinessTab = () => (
   <div>
     <div className="biz-hero">
-      <img src={makayoLogo} alt="Makayo Bridge Services LLC" className="biz-logo" />
+    <img src={makayoLogo} alt="Makayo Tech LLC" className="biz-logo" />
       <div className="biz-hero-text">
-        <h2 className="biz-name">Makayo Bridge Services LLC</h2>
+                <h2 className="biz-name">Makayo Tech LLC</h2>
         <p className="biz-tagline">
-          Bridging the gap between technology and real-world impact.
-          Independent software development and consulting based in Seattle, WA.
+          Ideas in. Software out. Formerly Makayo Bridge Services LLC.
+          Software products, web applications, AI features, and data systems, based in Seattle, WA.
         </p>
         <a href="mailto:hello@makayotech.com" className="biz-cta">
           Work With Me
@@ -93,12 +93,12 @@ const BusinessTab = () => (
         <div className="biz-contact-item">
           <span className="biz-contact-label">LinkedIn</span>
           <a
-            href="https://www.linkedin.com/in/makayo-founder"
+            href="https://www.linkedin.com/company/makayo-tech-llc/"
             target="_blank"
             rel="noreferrer"
             className="biz-contact-link"
           >
-            Mark Yosinao, Founder
+            Makayo Tech LLC
           </a>
         </div>
       </div>
