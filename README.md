@@ -1,16 +1,32 @@
-# React + Vite
+# Mark Yosinao — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio for Mark Yosinao, full-stack developer and founder of Makayo Tech LLC, based in Seattle, WA.
 
-Currently, two official plugins are available:
+**Live site:** https://mark-yosinao-portfolio.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## What's inside
 
-## React Compiler
+- **Developer tab:** about, organizations, certifications, skills, and a project gallery with category filters
+- **Business tab:** Makayo Tech LLC services, certifications, and contact info
+- **Resume:** downloadable PDF at [/resume.pdf](https://mark-yosinao-portfolio.vercel.app/resume.pdf)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech stack
 
-## Expanding the ESLint configuration
+- React 19
+- Vite 8
+- Framer Motion
+- CSS
+- Deployed on Vercel (auto-deploys from `main`)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Contact
+
+- LinkedIn: [linkedin.com/in/mark-yosinao](https://www.linkedin.com/in/mark-yosinao/)
+- Business: [makayotech.com](https://makayotech.com)
+- GitHub: [github.com/makayo](https://github.com/makayo)
