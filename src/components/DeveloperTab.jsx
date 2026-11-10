@@ -220,6 +220,11 @@ const orgs = [
     href: "https://northseattle.edu",
   },
   {
+    name: "NSC Tech Hub",
+    role: "Software Developer",
+    href: "https://www.nsctechhub.com",
+  },
+  {
     name: "Makayo Tech LLC",
     role: "Founder & Developer",
     href: "https://makayotech.com",
