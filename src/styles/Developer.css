@@ -252,6 +252,14 @@
   overflow: hidden;
 }
 
+.theme-light .project-card.featured {
+  background: var(--card);
+  color: var(--text);
+  box-shadow:
+    0 0 0 1px rgba(245, 166, 35, 0.1),
+    0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
 .project-card.featured::before {
   content: "";
   position: absolute;
