@@ -240,11 +240,18 @@ const certs = [
     href: "https://www.credly.com/badges/a0f2cac4-c26c-4504-acfc-8b883c300152/linked_in",
   },
   {
+    name: "AWS Academy Graduate",
+    sub: "Cloud Developing",
+    issuer: "Amazon Web Services",
+    status: "earned",
+    href: "https://awsacademy.instructure.com/courses/167333",
+  },
+  {
     name: "AWS Academy",
-    sub: "Cloud Foundations",
+    sub: "Cloud Architecting",
     issuer: "Amazon Web Services",
     status: "in progress",
-    href: "https://awsacademy.instructure.com/courses/167333",
+    href: "https://awsacademy.instructure.com/courses/191959",
   },
 ];
 
