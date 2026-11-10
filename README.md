@@ -18,13 +18,6 @@ Personal portfolio for Mark Yosinao, full-stack developer and founder of Makayo 
 - CSS
 - Deployed on Vercel (auto-deploys from `main`)
 
-## Run locally
-
-```bash
-npm install
-npm run dev
-```
-
 ## Contact
 
 - LinkedIn: [linkedin.com/in/mark-yosinao](https://www.linkedin.com/in/mark-yosinao/)
