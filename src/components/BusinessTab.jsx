@@ -1,5 +1,5 @@
 import SectionLabel from './SectionLabel'
-import makayoLogo from '../assets/makayo-logo.png'
+import makayoLogo from '../assets/makayotech-profile-logo.png'
 import '../styles/Business.css'
 import '../styles/Developer.css'
 
