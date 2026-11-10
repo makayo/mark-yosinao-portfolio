@@ -58,10 +58,16 @@ const BusinessTab = () => (
           href: 'https://www.credly.com/badges/a0f2cac4-c26c-4504-acfc-8b883c300152/linked_in',
         },
         {
-          name: 'AWS Academy',
-          sub: 'Cloud Foundations',
-          status: 'in progress',
+          name: 'AWS Academy Graduate',
+          sub: 'Cloud Developing',
+          status: 'earned',
           href: 'https://awsacademy.instructure.com/courses/167333',
+        },
+        {
+          name: 'AWS Academy',
+          sub: 'Cloud Architecting',
+          status: 'in progress',
+          href: 'https://awsacademy.instructure.com/courses/191959',
         },
       ].map(({ name, sub, status, href }) => (
         <a key={sub} href={href} target="_blank" rel="noreferrer" className="cert-card">
